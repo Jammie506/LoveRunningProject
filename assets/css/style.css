@@ -20,7 +20,8 @@ body{
 
 /*Header*/
 header{
-    background-color: lightcoral
+    background-color: lightcoral;
+    font-family: 'Oswald', sans-serif;
 }
 
 /*Main Content*/
