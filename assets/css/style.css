@@ -210,6 +210,14 @@ main{
     color: #3a3a3a;
 }
 
+/*Media Query: Large and Landscape Phones*/
+@media screen and (min-width: 576px) {
+    #photos{
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media Query: Tablet & Larger (768 and up)*/
 @media screen and (min-width: 768px) {
     /*Header*/
@@ -271,12 +279,21 @@ main{
         text-align: start;
         align-self: flex-start;
     }
+
+    #photos{
+        column-count: 3;
+    }
 }
 
 /* Media Query: Small Laptop & Larger (991 and up)*/
 @media screen and (min-width: 991px){
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /*Gallery*/
+    #photos{
+        column-count: 4;
     }
 }
 
